@@ -4,7 +4,6 @@ end
 
 def summon_captain_planet(array)
   new_array = array.collect {|word| word.capitalize.insert(-1, "!")}
-  
 end
 
 def long_planeteer_calls# code an argument here
